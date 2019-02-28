@@ -1,3 +1,5 @@
+/* Header */
+
 header {
   display: flex;
   position: fixed;
@@ -31,4 +33,42 @@ header {
 
 header nav {
   padding-right: 40px;
+}
+
+nav a {
+  color: black;
+}
+
+/* Main Content */
+
+.content {
+  display: flex;
+  width: 1230px;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
